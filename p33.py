@@ -25,6 +25,9 @@ class DiffieHellman():
 
 
 def p33():
+    # print ('Using DH params p=37 g=5')
+    # alice = DiffieHellman(p=37, g=5)
+    # bob = DiffieHellman(p=37, g=5)
     alice = DiffieHellman()
     bob = DiffieHellman()
 

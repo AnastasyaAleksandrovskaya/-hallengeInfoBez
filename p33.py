@@ -23,7 +23,6 @@ class DiffieHellman():
     def derive_shared_secret(self, B):
         self.shared = pow(B, self.secret, self.p)
 
-
 def p33():
     # print ('Using DH params p=37 g=5')
     # alice = DiffieHellman(p=37, g=5)
